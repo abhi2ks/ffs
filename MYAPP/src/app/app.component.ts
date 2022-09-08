@@ -6,5 +6,20 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'MYAPP';
+  title = 'MYAPp';
+  count=1;
+
+  listOfNUmbers = [1,32,32,55];
+  listofcars = ["buggati","maruti","bmw"];
+
+
+
+  decreaseCount = ()=> {
+  console.log ('Button clicked')
+  this.count--;
+  }
+  increaseCount = ()=> {
+  console.log ('Button clicked')
+  this.count++;
+  }
 }
